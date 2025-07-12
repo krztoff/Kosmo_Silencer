@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Silencer_PANEL")(type "KiCad")(uri "/Users/cgrace/Documents/GitHub/Kosmo_Silencer/Silencer_PANEL/Silencer_PANEL.pretty")(options "")(descr ""))
+  (lib (name "Library")(type "KiCad")(uri "${KIPRJMOD}/Library.pretty")(options "")(descr ""))
+)

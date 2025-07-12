@@ -1,0 +1,6 @@
+{
+    "schem_pdf": {"enabled": false},
+    "ibom": {"enabled": false},
+    "bom": {"enabled": false},
+    "step": {"enabled": false}
+}

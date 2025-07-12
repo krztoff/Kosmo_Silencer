@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Assassin_Symbol")(type "KiCad")(uri "${KIPRJMOD}/Assassin_Symbol.kicad_sym")(options "")(descr ""))
+)
