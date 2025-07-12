@@ -490,10 +490,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "C:/Users/Christopher Grace/Documents/GitHub/Kosmo_Silencer/Silencer_PANEL/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Silencer_PANEL.step",
       "svg": "",
       "vrml": ""
     },

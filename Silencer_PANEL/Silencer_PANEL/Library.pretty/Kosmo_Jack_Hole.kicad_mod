@@ -1,0 +1,257 @@
+(footprint "Kosmo_Jack_Hole"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 6mm")
+	(tags "mounting hole 6mm")
+	(property "Reference" "REF**"
+		(at 0 -11 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "9c7ff959-7fe7-45b6-90e8-e92f46d152e5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jack_Hole"
+		(at 0 11 0)
+		(layer "F.Fab")
+		(uuid "148b5310-4cbf-4ff7-8e31-8413881d6166")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "423f0297-0eca-47e5-bad4-f8a139453344")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9a25f7fa-c78e-4d40-8023-f441105a6aee")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_circle
+		(center 0 0)
+		(end 9.5 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "b1e671c6-74e7-4e39-b746-5b77a9783621")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 4.9 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "6f957419-835b-4749-8021-4d8af3807d23")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 10 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d6bf7b11-a764-48fd-90ac-57a6270605fb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.3 0 0)
+		(layer "F.Fab")
+		(uuid "b65c45d7-84df-42f8-855c-ed5ee00cd8b9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.3 0 0)
+		(layer "F.Fab")
+		(uuid "c8102309-76f7-4221-865b-2f93c0cba0e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd custom
+		(at -6.1 0)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center 6.1 0)
+				(end 12.2 0)
+				(width 1.9)
+				(fill no)
+			)
+		)
+		(uuid "5297cb63-d8f4-48b5-bf90-e2772fb2f6bb")
+	)
+	(pad "1" smd custom
+		(at -6.1 0)
+		(size 0.5 0.5)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(zone_connect 2)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_circle
+				(center 6.1 0)
+				(end 12.2 0)
+				(width 1.9)
+				(fill no)
+			)
+		)
+		(uuid "b6cc9733-021b-4c65-a3fd-1f8124828622")
+	)
+	(pad "1" thru_hole circle
+		(at -6.1 0)
+		(size 0.8 0.8)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "b56d2a53-ae71-4dac-9de0-fb86729181b4")
+	)
+	(pad "1" thru_hole circle
+		(at -4.3 -4.3)
+		(size 0.8 0.8)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "cf054bf3-188f-4a15-9c15-9cb7c20fc5d0")
+	)
+	(pad "1" thru_hole circle
+		(at -4.3 4.3)
+		(size 0.8 0.8)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "99d0c77f-6b04-44bd-825f-08a719a7bf85")
+	)
+	(pad "1" thru_hole circle
+		(at 0 -6.1)
+		(size 0.8 0.8)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "3b4aeade-de61-4de9-82fb-f45395e8302a")
+	)
+	(pad "1" thru_hole circle
+		(at 0 6.1)
+		(size 0.8 0.8)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "0bc73002-1fe6-4533-b486-407a54dffc51")
+	)
+	(pad "1" thru_hole circle
+		(at 4.2 4.4)
+		(size 0.8 0.8)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "db79b717-4d5a-4a43-9b96-40107c266092")
+	)
+	(pad "1" thru_hole circle
+		(at 4.3 -4.3)
+		(size 0.8 0.8)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "2b91172a-6954-44d0-842e-fb995e68b3b9")
+	)
+	(pad "1" thru_hole circle
+		(at 6.1 0)
+		(size 0.8 0.8)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "9f3ccfad-b8f5-4249-909a-e4f5b348ed74")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_USER_3DMODEL_DIR}/AO_tht_3d/User Library-jack-4.STEP"
+		(hide yes)
+		(offset
+			(xyz 0 0 -2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD_USER_3DMODEL_DIR}/AO_tht_3d/Washer_H_jack_1-4_in.step"
+		(hide yes)
+		(offset
+			(xyz -15 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${KICAD_USER_3DMODEL_DIR}/AO_tht_3d/S1VS-FM6704.stp"
+		(offset
+			(xyz 0 0 -2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

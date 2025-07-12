@@ -1,4 +1,4 @@
-26697560705965758
+26699553737635478
 AO_smd
 C_0805_2012Metric_Pad1.18x1.45mm_HandSolder
 Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator
@@ -71190,6 +71190,13 @@ Assasin_Footprint
 0
 0
 Library
+CC0_logo
+
+
+0
+0
+0
+Library
 Cross1
 
 
@@ -71217,6 +71224,27 @@ Hammer_neg_FSilkscreen
 0
 0
 0
+Library
+Kosmo_Jack_Hole
+Mounting Hole 6mm
+mounting hole 6mm
+0
+10
+1
+Library
+Kosmo_Panel_Dual_Slotted_Mounting_Holes
+Mounting Hole 3.2mm, M3
+mounting hole 3.2mm m3
+0
+2
+1
+Library
+Kosmo_Switch_Hole
+Dailywell M1 series
+Dailywell M1 series
+0
+10
+1
 Library
 ReligiousCross_FSilkscreen
 

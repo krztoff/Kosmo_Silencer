@@ -1,0 +1,265 @@
+(footprint "Kosmo_Panel_Dual_Slotted_Mounting_Holes"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.2mm, M3")
+	(tags "mounting hole 3.2mm m3")
+	(property "Reference" "REF**"
+		(at 1.4 -4.2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4d486950-7f5d-4ee5-814d-806d40ed22ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Panel"
+		(at 1.4 4.2 0)
+		(layer "F.Fab")
+		(uuid "b42626b5-b2ec-455b-a42c-627fe177b510")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5e291e50-d142-4379-a5bd-33507fc96fdb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9e51f2da-379c-4e05-8413-a3fdfc626553")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start 0 -197)
+		(end 2.8 -197)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "02385d2e-6e36-49c4-af18-7b409f09a800")
+	)
+	(fp_line
+		(start 0 -191)
+		(end 2.8 -191)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e8d0eb04-b4f9-45dc-aca8-fec3c9f58631")
+	)
+	(fp_line
+		(start 0 -3)
+		(end 2.8 -3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "97001e62-4dcb-4871-908d-9ac4c490b915")
+	)
+	(fp_line
+		(start 0 3)
+		(end 2.8 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "c76507da-e9c3-4e6b-94d9-3f7d275690b4")
+	)
+	(fp_arc
+		(start 0 -191)
+		(mid -3 -194)
+		(end 0 -197)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "33824c62-1040-4903-8347-976b9f553ed6")
+	)
+	(fp_arc
+		(start 0 3)
+		(mid -3 0)
+		(end 0 -3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "0f07fd57-4d98-40d1-affc-676ad28735b8")
+	)
+	(fp_arc
+		(start 2.8 -197)
+		(mid 5.8 -194)
+		(end 2.8 -191)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "334757f0-0f71-4fcf-91fe-4e2cf72c1dc5")
+	)
+	(fp_arc
+		(start 2.8 -3)
+		(mid 5.8 0)
+		(end 2.8 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "96aee2a1-6264-488c-a4be-0bec208d5350")
+	)
+	(fp_line
+		(start 0 -197.25)
+		(end 2.8 -197.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "83b60d6c-ccc4-41fc-b17c-f805a8ca196d")
+	)
+	(fp_line
+		(start 0 -190.75)
+		(end 2.8 -190.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3f9d40bf-8804-49f9-9935-a4f72de2e450")
+	)
+	(fp_line
+		(start 0 -3.25)
+		(end 2.8 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "78428c92-86dd-477d-af53-e824d1f90a9d")
+	)
+	(fp_line
+		(start 0 3.25)
+		(end 2.8 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e20b97f1-9d34-4dc2-be66-466e5c665ef1")
+	)
+	(fp_arc
+		(start 0 -190.75)
+		(mid -3.25 -194)
+		(end 0 -197.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "76791743-b3cf-4f12-bec5-aea58fec9397")
+	)
+	(fp_arc
+		(start 0 3.25)
+		(mid -3.25 0)
+		(end 0 -3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d6d78879-ffaf-443a-8525-79b831360e3a")
+	)
+	(fp_arc
+		(start 2.8 -197.25)
+		(mid 6.05 -194)
+		(end 2.8 -190.75)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "627bf941-3cae-4fc8-adc1-919cdb54c464")
+	)
+	(fp_arc
+		(start 2.8 -3.25)
+		(mid 6.05 0)
+		(end 2.8 3.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "57b59bf9-8664-4c99-8fdb-477129730337")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.7 0 0)
+		(layer "F.Fab")
+		(uuid "06d94a52-95c7-4c91-bde0-fabd825561ad")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 1.7 -194 0)
+		(layer "F.Fab")
+		(uuid "abbf88ce-61df-4369-8a1c-21c9386baa74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 1.4 -194)
+		(size 6.8 4)
+		(drill oval 6 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "0aee5367-08b3-486a-a2d5-4be6738c260e")
+	)
+	(pad "1" thru_hole oval
+		(at 1.4 0)
+		(size 6.8 4)
+		(drill oval 6 3.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(zone_connect 2)
+		(uuid "846122a9-4719-4438-8dc9-dce8ef3bbd96")
+	)
+	(embedded_fonts no)
+)
