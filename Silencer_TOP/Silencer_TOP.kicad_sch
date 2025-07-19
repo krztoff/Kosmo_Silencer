@@ -329,219 +329,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "AO_symbols:AudioJack2_SwitchT"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "AudioJack2_SwitchT"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "AO_tht:Jack_6.35mm_PJ_629HAN_slots"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Vendor" "Tayda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "SKU" "A-1121"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "audio jack receptacle mono headphones phone TS connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jack*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AudioJack2_SwitchT_0_1"
-				(rectangle
-					(start -2.54 0)
-					(end -3.81 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0.635 -0.635) (xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -0.254) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 3.81)
-					(end -2.54 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy -0.635 2.54) (xy -0.635 0) (xy -1.27 -0.635) (xy -1.905 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 1.778 -2.54) (xy 1.778 -0.254) (xy 1.524 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "AudioJack2_SwitchT_1_1"
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "T"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "TN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "AO_symbols:GND_1"
 			(power)
 			(pin_names
@@ -1789,10 +1576,16 @@
 		)
 	)
 	(junction
-		(at 41.91 139.7)
+		(at 151.13 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "06632ed2-863f-4f4f-944c-5e2e6c3ede4f")
+		(uuid "1b71dbd5-7137-4dba-821e-757e54bff447")
+	)
+	(junction
+		(at 151.13 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "643e2fa5-34d5-4958-be60-283f86a414d6")
 	)
 	(junction
 		(at 39.37 39.37)
@@ -1801,40 +1594,10 @@
 		(uuid "66cbcd22-0de8-4b1e-81b8-92ef08f9d09e")
 	)
 	(junction
-		(at 257.81 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e202d82-19ea-4fbe-bb62-6c080591358c")
-	)
-	(junction
 		(at 121.92 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c21b9df-face-46e3-8367-2111a6a383ee")
-	)
-	(junction
-		(at 262.89 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81efb976-9772-46d4-9371-f33f2039885a")
-	)
-	(junction
-		(at 120.65 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82306e65-6f43-47db-8ca2-5c4e6ac6ecee")
-	)
-	(junction
-		(at 120.65 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "82751a66-6edd-4d8f-8a21-b29d88275792")
-	)
-	(junction
-		(at 41.91 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86fbf739-68ce-4af7-a0b6-9cad9a05f1dd")
 	)
 	(junction
 		(at 91.44 39.37)
@@ -1849,10 +1612,10 @@
 		(uuid "936f5cad-a4f3-4d0a-8e90-feb0f01922ce")
 	)
 	(junction
-		(at 260.35 54.61)
+		(at 153.67 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b215d643-262e-48a1-bd5c-6209f4e8d54b")
+		(uuid "b49eff2c-8ab9-4f58-8837-9b2142d38da6")
 	)
 	(junction
 		(at 57.15 39.37)
@@ -1868,16 +1631,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 138.43) (xy 120.65 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0193256d-efbf-4e80-9102-9be7d12567c2")
-	)
-	(wire
-		(pts
 			(xy 132.08 41.91) (xy 138.43 41.91)
 		)
 		(stroke
@@ -1888,23 +1641,43 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 100.33) (xy 245.11 100.33)
+			(xy 154.94 113.03) (xy 160.02 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04e4abcf-08e5-4f2f-bf66-f8c927662de7")
+		(uuid "04dbae58-f537-4ec0-8327-993c415144a2")
 	)
 	(wire
 		(pts
-			(xy 132.08 149.86) (xy 144.78 149.86)
+			(xy 151.13 46.99) (xy 172.72 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "073bc559-f91e-4cd2-bf12-615e47996318")
+		(uuid "05f8c7b5-bd7e-4929-a5f7-5d713d33ebce")
+	)
+	(wire
+		(pts
+			(xy 73.66 86.36) (xy 74.93 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06b29b39-790a-4ee4-a877-5ca2c2777bb0")
+	)
+	(wire
+		(pts
+			(xy 151.13 44.45) (xy 151.13 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09947e45-e65e-4a36-bcd0-99659a646c36")
 	)
 	(wire
 		(pts
@@ -1918,66 +1691,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 139.7) (xy 41.91 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b080ba7-9720-44bc-aa46-731f0463c878")
-	)
-	(wire
-		(pts
-			(xy 92.71 129.54) (xy 96.52 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bdac551-d44e-445c-82aa-ac554a980f14")
-	)
-	(wire
-		(pts
-			(xy 41.91 138.43) (xy 41.91 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c811094-8895-45af-ba10-bf346b1d490b")
-	)
-	(wire
-		(pts
-			(xy 147.32 129.54) (xy 148.59 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0cfd45d2-4910-4432-9bdc-4d6105720f4c")
-	)
-	(wire
-		(pts
-			(xy 144.78 105.41) (xy 138.43 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e07dffe-a775-49d0-ab48-67c82e69d5f7")
-	)
-	(wire
-		(pts
-			(xy 171.45 87.63) (xy 175.26 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f1324f1-d9e5-43a8-92b7-6b2248284553")
-	)
-	(wire
-		(pts
 			(xy 39.37 52.07) (xy 41.91 52.07)
 		)
 		(stroke
@@ -1988,43 +1701,33 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 87.63) (xy 82.55 87.63)
+			(xy 114.3 118.11) (xy 114.3 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "15a7e179-34cb-4d1c-9da6-95235d5d6623")
+		(uuid "146679ac-bd65-4c6a-bcf4-25d56035a052")
 	)
 	(wire
 		(pts
-			(xy 257.81 31.75) (xy 269.24 31.75)
+			(xy 153.67 36.83) (xy 172.72 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16645512-abaf-4b25-aafa-fd104272b360")
+		(uuid "1813e8ff-ca2f-43a2-8971-f8836ddacc3e")
 	)
 	(wire
 		(pts
-			(xy 165.1 46.99) (xy 172.72 46.99)
+			(xy 151.13 96.52) (xy 163.83 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16d63d1b-b603-4f1c-8f1c-deb8cb11468c")
-	)
-	(wire
-		(pts
-			(xy 224.79 43.18) (xy 228.6 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "170d92ce-cb88-48c1-8ac3-870747be59f8")
+		(uuid "18e81d3d-88de-43dd-a1bb-23a4fbca5c34")
 	)
 	(wire
 		(pts
@@ -2038,73 +1741,33 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 78.74) (xy 269.24 78.74)
+			(xy 153.67 86.36) (xy 158.75 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1fd5393a-76c4-4547-8461-a550969b3150")
+		(uuid "21a1fad8-9d00-4e90-8725-cb681f6dd03a")
 	)
 	(wire
 		(pts
-			(xy 147.32 87.63) (xy 148.59 87.63)
+			(xy 95.25 121.92) (xy 95.25 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20b5901a-1f1a-4b7b-9a5d-47b99f213979")
+		(uuid "255e3c96-06bb-4561-a515-cd655ecd85e6")
 	)
 	(wire
 		(pts
-			(xy 185.42 91.44) (xy 185.42 87.63)
+			(xy 82.55 124.46) (xy 95.25 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "20cec9b9-a783-419a-9201-3fc44b63c1f7")
-	)
-	(wire
-		(pts
-			(xy 68.58 87.63) (xy 69.85 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21683eeb-6b15-41b0-9caf-919446dbf102")
-	)
-	(wire
-		(pts
-			(xy 92.71 87.63) (xy 96.52 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "228b3c2c-3f26-44a9-af1e-4dcff4de8bb6")
-	)
-	(wire
-		(pts
-			(xy 106.68 129.54) (xy 104.14 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25befb14-5d92-4d5d-8653-3d72c4687cbc")
-	)
-	(wire
-		(pts
-			(xy 53.34 149.86) (xy 66.04 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2676ffae-bd26-41b0-b307-d9f3c46e6538")
+		(uuid "2accb32c-4159-45b5-b374-d2ed48c797aa")
 	)
 	(wire
 		(pts
@@ -2118,16 +1781,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 87.63) (xy 104.14 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32172192-426a-45b1-9250-6ce3b25e3c0f")
-	)
-	(wire
-		(pts
 			(xy 74.93 33.02) (xy 74.93 39.37)
 		)
 		(stroke
@@ -2138,23 +1791,13 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 129.54) (xy 69.85 129.54)
+			(xy 92.71 93.98) (xy 92.71 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "35870b8a-f274-4a97-8ef5-7e7bfe9be887")
-	)
-	(wire
-		(pts
-			(xy 41.91 96.52) (xy 41.91 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "370a4558-b57d-48a7-bef6-27599cc67a7c")
+		(uuid "36c10352-8de7-4bc4-b060-4869068b8422")
 	)
 	(wire
 		(pts
@@ -2168,33 +1811,33 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 54.61) (xy 260.35 54.61)
+			(xy 73.66 82.55) (xy 73.66 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "43593914-d3f0-42b7-884a-09fe08ae9f78")
+		(uuid "418827f2-8963-4cf4-9ead-cd4a5da5af92")
 	)
 	(wire
 		(pts
-			(xy 74.93 97.79) (xy 87.63 97.79)
+			(xy 138.43 123.19) (xy 144.78 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "479fc331-0f98-4fc8-a06c-85e2a4f38ed1")
+		(uuid "429ecf28-07ad-45eb-824d-44920ce79264")
 	)
 	(wire
 		(pts
-			(xy 248.92 76.2) (xy 245.11 76.2)
+			(xy 114.3 114.3) (xy 111.76 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "48010f87-a07c-480e-9f15-c70fad5918fc")
+		(uuid "4306db99-e51a-4a35-b779-7254c304fcff")
 	)
 	(wire
 		(pts
@@ -2218,26 +1861,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 97.79) (xy 120.65 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c770357-ace7-491f-9ee2-9d43aeee7694")
-	)
-	(wire
-		(pts
-			(xy 185.42 87.63) (xy 182.88 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4dc30fa4-94f7-49f5-8f62-0f982137a468")
-	)
-	(wire
-		(pts
 			(xy 57.15 39.37) (xy 59.69 39.37)
 		)
 		(stroke
@@ -2245,16 +1868,6 @@
 			(type default)
 		)
 		(uuid "4eea5dd9-ac7c-48e5-8b84-3546ab06fa2d")
-	)
-	(wire
-		(pts
-			(xy 260.35 81.28) (xy 260.35 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5037ce90-7d1b-475c-b295-f176a84220b7")
 	)
 	(wire
 		(pts
@@ -2278,33 +1891,23 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 81.28) (xy 260.35 81.28)
+			(xy 85.09 114.3) (xy 90.17 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5141937e-2942-453a-8aed-623e325bee4b")
+		(uuid "50c9fb55-2855-4c1e-8155-7ca7cfb63d07")
 	)
 	(wire
 		(pts
-			(xy 147.32 125.73) (xy 147.32 129.54)
+			(xy 68.58 124.46) (xy 74.93 124.46)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "52e2e798-283e-4579-a2db-1654a40c80a3")
-	)
-	(wire
-		(pts
-			(xy 262.89 105.41) (xy 245.11 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53f0c131-d80f-4b03-8e04-d98ae5575404")
+		(uuid "550b7f35-7f83-4068-be6d-2ab638b42e72")
 	)
 	(wire
 		(pts
@@ -2318,53 +1921,23 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 105.41) (xy 59.69 105.41)
+			(xy 182.88 86.36) (xy 180.34 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "58868266-e734-4ab8-9e0b-2b6bba572f89")
+		(uuid "5a3de0f6-8bd8-4a06-9441-15f4b08a3d6d")
 	)
 	(wire
 		(pts
-			(xy 165.1 41.91) (xy 172.72 41.91)
+			(xy 100.33 114.3) (xy 104.14 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "588fbbeb-31da-47b9-9034-53f0d5a39a97")
-	)
-	(wire
-		(pts
-			(xy 120.65 139.7) (xy 120.65 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c43c239-ddb1-46a6-97ab-52de65368b39")
-	)
-	(wire
-		(pts
-			(xy 120.65 97.79) (xy 146.05 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5db2f862-c923-4716-9a03-577a7b77003b")
-	)
-	(wire
-		(pts
-			(xy 165.1 44.45) (xy 172.72 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5db6847f-86b5-46cb-b935-d7e4da9078c3")
+		(uuid "5e15e70f-2fef-4389-ae0c-e029fb15f4b7")
 	)
 	(wire
 		(pts
@@ -2378,83 +1951,43 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 102.87) (xy 270.51 102.87)
+			(xy 170.18 113.03) (xy 173.99 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64368eef-af60-4174-bb5c-099546d6328e")
+		(uuid "632dca3a-73cd-4766-a1cf-e2f0ebd6124b")
 	)
 	(wire
 		(pts
-			(xy 248.92 29.21) (xy 245.11 29.21)
+			(xy 151.13 41.91) (xy 151.13 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "684118e8-2c2c-4004-a847-d4457d7b99ec")
+		(uuid "66fb209c-05c5-4ff8-9b27-1838da0503eb")
 	)
 	(wire
 		(pts
-			(xy 120.65 96.52) (xy 120.65 97.79)
+			(xy 163.83 93.98) (xy 163.83 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "705a8ae2-dced-4426-8fa4-51c86589e37a")
+		(uuid "700a46bc-fb0c-4e8b-b2a0-a1835b29ce90")
 	)
 	(wire
 		(pts
-			(xy 120.65 149.86) (xy 124.46 149.86)
+			(xy 76.2 110.49) (xy 76.2 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "70a46e17-8fbc-4da0-894f-43d8f01088e0")
-	)
-	(wire
-		(pts
-			(xy 132.08 107.95) (xy 144.78 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "748fcc7b-37ce-4324-91bc-66f190a183bb")
-	)
-	(wire
-		(pts
-			(xy 185.42 129.54) (xy 182.88 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75d02486-dce8-485f-8963-9cbd746686d0")
-	)
-	(wire
-		(pts
-			(xy 120.65 107.95) (xy 124.46 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "787a83c1-38b4-4f1a-a9b8-2986575c2d5f")
-	)
-	(wire
-		(pts
-			(xy 248.92 29.21) (xy 248.92 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cab5fd3-b99d-453f-955f-0207f5d8f907")
+		(uuid "7e17b4bc-9cc0-48ed-966e-bc039ef04c03")
 	)
 	(wire
 		(pts
@@ -2478,16 +2011,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 97.79) (xy 67.31 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "806d3c2f-a739-4841-8ec2-f1a9f0c1a5c9")
-	)
-	(wire
-		(pts
 			(xy 138.43 44.45) (xy 121.92 44.45)
 		)
 		(stroke
@@ -2498,13 +2021,43 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 91.44) (xy 106.68 87.63)
+			(xy 151.13 41.91) (xy 153.67 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8982472c-1648-4d11-8d09-86905628a777")
+		(uuid "81509fb1-da2f-4079-94ff-a583fde649ed")
+	)
+	(wire
+		(pts
+			(xy 146.05 113.03) (xy 147.32 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "899b1d4c-acd8-43e3-a484-0c8a9084b0ae")
+	)
+	(wire
+		(pts
+			(xy 153.67 36.83) (xy 153.67 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b2d3471-14dc-4899-a32c-bf6fdca17bcf")
+	)
+	(wire
+		(pts
+			(xy 151.13 44.45) (xy 172.72 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0459f5-d2e7-4e1e-8a30-473d6251f67c")
 	)
 	(wire
 		(pts
@@ -2528,53 +2081,33 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 36.83) (xy 172.72 36.83)
+			(xy 146.05 109.22) (xy 146.05 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90caf028-7f58-40c7-a3fb-760afb8ab273")
+		(uuid "99a6c407-ec84-467c-9f1f-43f90118b9f1")
 	)
 	(wire
 		(pts
-			(xy 41.91 149.86) (xy 45.72 149.86)
+			(xy 152.4 123.19) (xy 165.1 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92899bea-9167-4746-b87b-7245bc00421e")
+		(uuid "99be12ae-60cf-4fa6-aa35-788d25f6a2e2")
 	)
 	(wire
 		(pts
-			(xy 66.04 147.32) (xy 59.69 147.32)
+			(xy 137.16 96.52) (xy 143.51 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "932f6e07-53ce-4dd3-9d11-839e4f01d0d2")
-	)
-	(wire
-		(pts
-			(xy 153.67 139.7) (xy 166.37 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93498ef0-8331-479d-bf8b-a28ab89a459e")
-	)
-	(wire
-		(pts
-			(xy 248.92 52.07) (xy 245.11 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ba6ca6d-7451-47cf-9d8a-ad12b13b8796")
+		(uuid "9b6846ef-55d5-4b83-8055-86987e1684f8")
 	)
 	(wire
 		(pts
@@ -2588,53 +2121,43 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 95.25) (xy 166.37 97.79)
+			(xy 82.55 86.36) (xy 87.63 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9d3192a3-1f2e-407b-8682-491d66726f6e")
+		(uuid "9c59dd7b-972f-40fe-94d5-ae9a99b62f0d")
 	)
 	(wire
 		(pts
-			(xy 106.68 133.35) (xy 106.68 129.54)
+			(xy 111.76 90.17) (xy 111.76 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2558e93-1545-4162-8f82-dc5f15f4bb5e")
+		(uuid "9f00b423-89d2-4cd1-82e5-fb00beebd213")
 	)
 	(wire
 		(pts
-			(xy 59.69 147.32) (xy 59.69 154.94)
+			(xy 111.76 86.36) (xy 109.22 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a467a398-f99b-4475-955e-77d6fec68a76")
+		(uuid "a28d58fb-8de8-4bc2-a1eb-eaa46626ad04")
 	)
 	(wire
 		(pts
-			(xy 245.11 78.74) (xy 262.89 78.74)
+			(xy 184.15 116.84) (xy 184.15 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4aebab0-343f-4a72-9803-0751e6dcd8a6")
-	)
-	(wire
-		(pts
-			(xy 147.32 83.82) (xy 147.32 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5d13324-a8f6-42f4-8abc-291240cd778e")
+		(uuid "a3e3085c-2978-4459-8000-5d426a9a1621")
 	)
 	(wire
 		(pts
@@ -2658,143 +2181,33 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 147.32) (xy 138.43 154.94)
+			(xy 168.91 86.36) (xy 172.72 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b19763bd-dd98-42a3-b25b-1ac7fda2fbb3")
+		(uuid "b10335fa-659e-43e1-bb6d-e911845e3ede")
 	)
 	(wire
 		(pts
-			(xy 185.42 133.35) (xy 185.42 129.54)
+			(xy 153.67 41.91) (xy 172.72 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b55d1370-9847-4354-a702-6b5de8679e06")
+		(uuid "bb540b50-4067-4c76-b2ba-02445d41e5b9")
 	)
 	(wire
 		(pts
-			(xy 262.89 78.74) (xy 262.89 105.41)
+			(xy 165.1 120.65) (xy 165.1 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b898decc-02ce-472f-a8e7-efb0baab8b23")
-	)
-	(wire
-		(pts
-			(xy 77.47 129.54) (xy 82.55 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8c295df-4024-40ff-a00b-c89c5f24d8c1")
-	)
-	(wire
-		(pts
-			(xy 41.91 107.95) (xy 45.72 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8c4e41d-122c-4ac6-a9bd-0c69afe9dffc")
-	)
-	(wire
-		(pts
-			(xy 68.58 83.82) (xy 68.58 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b904c489-291a-4104-975d-7512688f8934")
-	)
-	(wire
-		(pts
-			(xy 245.11 34.29) (xy 245.11 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b935e5ce-d220-41a3-8308-58b13b29ae4c")
-	)
-	(wire
-		(pts
-			(xy 156.21 87.63) (xy 161.29 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf281cca-8c14-4a09-a70d-43409982fe33")
-	)
-	(wire
-		(pts
-			(xy 87.63 137.16) (xy 87.63 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bff3e263-41d6-4322-b69e-b852c9803b0a")
-	)
-	(wire
-		(pts
-			(xy 144.78 147.32) (xy 138.43 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c04e5852-fe5f-467f-8e87-f0a6dd202c23")
-	)
-	(wire
-		(pts
-			(xy 53.34 107.95) (xy 66.04 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4d64854-42fc-4faa-b51c-a6709be74b6e")
-	)
-	(wire
-		(pts
-			(xy 248.92 76.2) (xy 248.92 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c75ca776-aa5e-4e26-b258-b83c8c1a3962")
-	)
-	(wire
-		(pts
-			(xy 74.93 139.7) (xy 87.63 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7e4ad5e-5c39-4688-9535-5548e26f072b")
-	)
-	(wire
-		(pts
-			(xy 87.63 95.25) (xy 87.63 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cabfc4aa-9969-466e-a858-8b09177196ae")
+		(uuid "bd282ab9-b504-4ae1-b5d2-73a3d7e8f1c9")
 	)
 	(wire
 		(pts
@@ -2818,36 +2231,6 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 57.15) (xy 257.81 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d284e012-d8fe-4ffb-bde5-5631a1092b74")
-	)
-	(wire
-		(pts
-			(xy 41.91 139.7) (xy 67.31 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3411f12-14b5-4c00-8e98-e8780c035bfa")
-	)
-	(wire
-		(pts
-			(xy 138.43 105.41) (xy 138.43 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6fd645f-19fc-4f1c-b961-cb02aa84cf63")
-	)
-	(wire
-		(pts
 			(xy 39.37 39.37) (xy 41.91 39.37)
 		)
 		(stroke
@@ -2868,13 +2251,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 105.41) (xy 59.69 111.76)
+			(xy 182.88 90.17) (xy 182.88 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e02df17d-3ee6-4a62-b094-2a8ca6683b0d")
+		(uuid "e0081ffd-34b1-4fbf-a832-51d198a5ee1d")
 	)
 	(wire
 		(pts
@@ -2888,13 +2271,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 129.54) (xy 161.29 129.54)
+			(xy 66.04 96.52) (xy 72.39 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e2a21418-8e28-4edc-83cb-409fe34cf7a6")
+		(uuid "e2f0385e-9fab-4ffc-b81f-4b1378f78573")
 	)
 	(wire
 		(pts
@@ -2918,36 +2301,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 125.73) (xy 68.58 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e475f1d8-11a4-42d0-888a-79b4aad8c3b1")
-	)
-	(wire
-		(pts
-			(xy 245.11 43.18) (xy 236.22 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4841f63-c8a0-415c-9ceb-e1102fec14fa")
-	)
-	(wire
-		(pts
-			(xy 120.65 139.7) (xy 146.05 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7b24f8b-91ec-4eb6-a949-9d94059e9610")
-	)
-	(wire
-		(pts
 			(xy 165.1 49.53) (xy 172.72 49.53)
 		)
 		(stroke
@@ -2958,23 +2311,13 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 57.15) (xy 257.81 57.15)
+			(xy 97.79 86.36) (xy 101.6 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eadcc5b9-49d8-4120-90d9-6ac49525ee39")
-	)
-	(wire
-		(pts
-			(xy 153.67 97.79) (xy 166.37 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebbc09e3-e457-4ee0-8ce1-c41be4c87f17")
+		(uuid "ea92d2f5-8a1e-487b-af66-1b4f4d8ba731")
 	)
 	(wire
 		(pts
@@ -2998,13 +2341,43 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 100.33) (xy 248.92 110.49)
+			(xy 80.01 96.52) (xy 92.71 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f1c1dda1-375d-4bab-82dc-41084ef4b76a")
+		(uuid "ee768803-4f8b-43df-8e09-ac1314112a06")
+	)
+	(wire
+		(pts
+			(xy 76.2 114.3) (xy 77.47 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eed6bdfc-ad09-43d4-9d37-570ee0803aa1")
+	)
+	(wire
+		(pts
+			(xy 151.13 46.99) (xy 151.13 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef980cc5-50e6-4282-855d-7efded6ca16a")
+	)
+	(wire
+		(pts
+			(xy 144.78 82.55) (xy 144.78 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56daa17-a159-4a68-ab13-435fa2c7fbd2")
 	)
 	(wire
 		(pts
@@ -3018,33 +2391,13 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 43.18) (xy 224.79 35.56)
+			(xy 144.78 86.36) (xy 146.05 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f63a393f-5f89-4c02-9785-7a7681227626")
-	)
-	(wire
-		(pts
-			(xy 260.35 54.61) (xy 269.24 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6b8d34b-cb13-48e8-ad9c-9b3f7ff2bc27")
-	)
-	(wire
-		(pts
-			(xy 166.37 137.16) (xy 166.37 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f782bb51-c099-4968-8063-41a14cff25af")
+		(uuid "f7235521-7e19-486a-b641-4832aef67170")
 	)
 	(wire
 		(pts
@@ -3058,43 +2411,13 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 31.75) (xy 257.81 31.75)
+			(xy 184.15 113.03) (xy 181.61 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f99c574e-26bf-480b-8378-5e1894c5f07b")
-	)
-	(wire
-		(pts
-			(xy 248.92 52.07) (xy 248.92 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa80c993-94da-4e9d-8ae9-e0b1f089afbd")
-	)
-	(wire
-		(pts
-			(xy 41.91 97.79) (xy 41.91 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc20518d-0193-4b69-a2f3-635f2f29b43c")
-	)
-	(wire
-		(pts
-			(xy 171.45 129.54) (xy 175.26 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc874e7f-6d29-4329-9917-f631357d675f")
+		(uuid "f862c2a7-7b0d-4575-a933-b69288e1c03b")
 	)
 	(wire
 		(pts
@@ -3105,6 +2428,28 @@
 			(type default)
 		)
 		(uuid "fe0c64df-2284-4e33-8446-807a5bd4e18f")
+	)
+	(global_label "LED3_T"
+		(shape input)
+		(at 137.16 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08db5453-2c08-4ead-b5c0-fcc27b9aa251")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127.583 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(global_label "M1_T"
 		(shape input)
@@ -3128,50 +2473,6 @@
 			)
 		)
 	)
-	(global_label "IN3_T"
-		(shape input)
-		(at 269.24 78.74 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "13c07391-e0f0-4ef2-ad43-87fbd566ed74")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.24 86.8052 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IN3_T"
-		(shape input)
-		(at 165.1 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1e84b2c7-6ffa-4547-8961-53e8f1f67c2a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.0348 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "M3_T"
 		(shape input)
 		(at 77.47 52.07 0)
@@ -3185,50 +2486,6 @@
 		(uuid "25d6109d-4dd0-41d7-9abf-b6fe7b528fed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.0513 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IN4_T"
-		(shape input)
-		(at 270.51 102.87 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2bace616-48f4-438d-ab0e-6311f8388fb7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.51 110.9352 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED1_T"
-		(shape input)
-		(at 41.91 96.52 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "318b8014-c49f-4223-81b1-5b4ecdef6ddd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.91 86.943 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3256,28 +2513,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED4_T"
-		(shape input)
-		(at 120.65 138.43 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3e6a5911-da86-4b9a-bcb4-505a5ca7d02a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.65 128.853 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3326,24 +2561,46 @@
 			)
 		)
 	)
-	(global_label "LED3_T"
+	(global_label "LED4_T"
 		(shape input)
-		(at 120.65 96.52 90)
+		(at 138.43 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "68b25a7a-359d-4942-b37a-c4ae628a585d")
+		(uuid "521f1b83-c594-43e1-902c-2ed219a84098")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.65 86.943 90)
+			(at 128.853 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED2_T"
+		(shape input)
+		(at 68.58 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5dc3d20b-7420-4b25-a42f-678c69dcec69")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.003 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3366,28 +2623,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IN2_T"
-		(shape input)
-		(at 165.1 46.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9138bcfa-f5fb-4669-8b6a-b84561338908")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.0348 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3436,50 +2671,6 @@
 			)
 		)
 	)
-	(global_label "IN1_T"
-		(shape input)
-		(at 269.24 31.75 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a0c12a9e-89a7-4b34-9caa-8064e5412d9f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.24 39.8152 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LED2_T"
-		(shape input)
-		(at 41.91 138.43 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "accef42a-ad02-4164-82ee-848d0df8d267")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.91 128.853 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "M4_T"
 		(shape input)
 		(at 93.98 52.07 0)
@@ -3498,50 +2689,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IN4_T"
-		(shape input)
-		(at 165.1 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d2033009-b144-4c9e-a992-c0aa98486d78")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.0348 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "IN1_T"
-		(shape input)
-		(at 165.1 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e6c403b6-5316-402c-9551-32601541707f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.0348 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -3612,9 +2759,9 @@
 			)
 		)
 	)
-	(global_label "IN2_T"
+	(global_label "LED1_T"
 		(shape input)
-		(at 269.24 54.61 270)
+		(at 66.04 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3622,171 +2769,15 @@
 			)
 			(justify right)
 		)
-		(uuid "fe54a67e-a022-41bc-98e5-60f100c49fb9")
+		(uuid "f18bbdfe-550f-4d80-aa23-4a03498d5b43")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.24 62.6752 90)
+			(at 56.463 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 49.53 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "001a6135-a8d7-484e-a978-76e910b4cdc9")
-		(property "Reference" "R104"
-			(at 49.53 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 49.53 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AO_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 49.53 151.638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 49.53 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fffc19ff-cee2-40c9-975a-2f05f7116bbf")
-		)
-		(pin "2"
-			(uuid "09bac1b8-f323-41e2-86f2-416c05f2148c")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "R104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:LED_red")
-		(at 152.4 129.54 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "057d2d30-25cc-4d61-b5f3-4507fb4cb980")
-		(property "Reference" "LED4"
-			(at 152.7174 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_red"
-			(at 155.2574 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AO_tht:LED_D5.0mm"
-			(at 152.4 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 152.4 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Tayda"
-			(at 152.4 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "A-1554"
-			(at 152.4 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7c40934f-cdb8-46bf-8934-a45c3c4d8d6e")
-		)
-		(pin "1"
-			(uuid "6766318c-7dc6-433e-92ab-cd0aa2f96b59")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "LED4")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -3882,214 +2873,16 @@
 	)
 	(symbol
 		(lib_id "AO_symbols:GND_1")
-		(at 248.92 39.37 0)
+		(at 111.76 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "096931fd-14d8-44ae-bf5f-1effa9b6d4ef")
-		(property "Reference" "#PWR07"
-			(at 248.92 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_1"
-			(at 248.92 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND_1\" , ground"
-			(at 248.92 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7bf72fd2-0b26-4afd-8136-2b4d7d574f3e")
-		)
-		(instances
-			(project ""
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:GND_1")
-		(at 185.42 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0cabc89b-009b-4cf2-960d-0faccc4bb06c")
-		(property "Reference" "#PWR023"
-			(at 185.42 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_1"
-			(at 185.42 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND_1\" , ground"
-			(at 185.42 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a86a1e1-4941-49c1-883d-6d712758265f")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:GND_1")
-		(at 59.69 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0e2b9463-0287-48f3-8704-02a93bf00ec1")
-		(property "Reference" "#PWR015"
-			(at 59.69 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_1"
-			(at 59.69 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND_1\" , ground"
-			(at 59.69 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9cd92013-25be-4f3d-bb24-ecc2d72f505e")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "#PWR015")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:GND_1")
-		(at 248.92 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15e15248-56b5-4681-8270-350c3a332c10")
+		(uuid "19be29ce-65ae-4fc9-8145-6941605e8d5d")
 		(property "Reference" "#PWR09"
-			(at 248.92 92.71 0)
+			(at 111.76 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4098,7 +2891,7 @@
 			)
 		)
 		(property "Value" "GND_1"
-			(at 248.92 91.44 0)
+			(at 111.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4106,7 +2899,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 86.36 0)
+			(at 111.76 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4115,7 +2908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 86.36 0)
+			(at 111.76 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4124,7 +2917,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND_1\" , ground"
-			(at 248.92 86.36 0)
+			(at 111.76 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4133,78 +2926,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "78810be3-302b-4c1b-9a4c-5810d2eb698d")
+			(uuid "2a60fa54-2613-4f57-a50b-1df1e691e7f3")
 		)
 		(instances
 			(project "Silencer_TOP"
 				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:+12V_1")
-		(at 147.32 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1887666b-1a40-4630-9d54-84209b172f2e")
-		(property "Reference" "#PWR020"
-			(at 147.32 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V_1"
-			(at 147.32 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V_1\""
-			(at 147.32 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c330b31-5c07-437d-a80b-83bee4604da3")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -4277,175 +3004,17 @@
 		)
 	)
 	(symbol
-		(lib_id "AO_symbols:AudioJack2_SwitchT")
-		(at 240.03 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1c699ffe-577c-4dcf-b428-3844a30cd983")
-		(property "Reference" "IN_4"
-			(at 239.395 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AudioJack2_SwitchT"
-			(at 239.395 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AO_tht:Jack_6.35mm_PJ_629HAN_slots"
-			(at 240.03 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 240.03 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Tayda"
-			(at 240.03 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "A-1121"
-			(at 240.03 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "f429c733-9584-47ae-abfe-1b18cf7720f9")
-		)
-		(pin "T"
-			(uuid "b6a77663-e240-42bc-88ac-ed7610680c6a")
-		)
-		(pin "TN"
-			(uuid "b8902cf8-6657-4887-a71f-1f0bf0f47d19")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "IN_4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 232.41 43.18 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1cd611c2-c426-46f9-bbb7-f23ec1a92a61")
-		(property "Reference" "R111"
-			(at 232.41 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4K7"
-			(at 232.41 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AO_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 232.41 44.958 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 232.41 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 232.41 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "04c093ff-6c6a-40ac-952c-c66aa97f99ea")
-		)
-		(pin "2"
-			(uuid "66cf789d-a9f6-4c26-9ce9-01986fb09552")
-		)
-		(instances
-			(project ""
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "R111")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AO_symbols:+12V_1")
-		(at 68.58 125.73 0)
+		(at 144.78 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "25e14480-6495-4e46-99ae-7a9415ba172a")
-		(property "Reference" "#PWR016"
-			(at 68.58 129.54 0)
+		(uuid "1afb6598-db15-44a5-a11a-bb3546fafcaa")
+		(property "Reference" "#PWR012"
+			(at 144.78 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4454,7 +3023,7 @@
 			)
 		)
 		(property "Value" "+12V_1"
-			(at 68.58 120.65 0)
+			(at 144.78 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4462,7 +3031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 125.73 0)
+			(at 144.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4471,7 +3040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 125.73 0)
+			(at 144.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4480,7 +3049,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V_1\""
-			(at 68.58 125.73 0)
+			(at 144.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4489,303 +3058,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "783d87e0-eac9-4c35-9698-8146b2f23ed7")
+			(uuid "c7d65e7a-aac9-4cb2-9139-ed8e6e195792")
 		)
 		(instances
 			(project "Silencer_TOP"
 				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:+12V_1")
-		(at 147.32 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "26808a42-cd81-41d0-b310-df63a8b38422")
-		(property "Reference" "#PWR021"
-			(at 147.32 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V_1"
-			(at 147.32 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V_1\""
-			(at 147.32 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8de259e7-c2a7-4368-898a-f45ea6d7d50e")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:AudioJack2_SwitchT")
-		(at 240.03 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "28524326-2a80-4f37-9feb-9860d392c2a6")
-		(property "Reference" "IN_1"
-			(at 239.395 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AudioJack2_SwitchT"
-			(at 239.395 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AO_tht:Jack_6.35mm_PJ_629HAN_slots"
-			(at 240.03 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 240.03 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Tayda"
-			(at 240.03 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "A-1121"
-			(at 240.03 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "c1f86b7c-39a7-4455-808d-81f01e70fa01")
-		)
-		(pin "T"
-			(uuid "6f673f37-a70d-4ba9-ba60-f40cdf88de0a")
-		)
-		(pin "TN"
-			(uuid "20d8cfa6-ffe9-4cca-99d9-ab7a7e0f2416")
-		)
-		(instances
-			(project ""
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "IN_1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 100.33 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a7b1004-561b-4dca-bd81-e1c80588c964")
-		(property "Reference" "R102"
-			(at 102.87 83.8201 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 102.87 81.2801 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AO_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 100.33 89.408 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 100.33 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ed6d4f06-2414-412e-9e80-688f1d8f69fb")
-		)
-		(pin "1"
-			(uuid "108ae240-59be-4d8d-a6a3-b4bb13a58d5b")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "R102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:GND_1")
-		(at 106.68 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2b646f3d-1cef-41f0-b2b6-67060dca5818")
-		(property "Reference" "#PWR017"
-			(at 106.68 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_1"
-			(at 106.68 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND_1\" , ground"
-			(at 106.68 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9f889f6-5eb5-4e6d-bf29-82d7dca4406a")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "#PWR017")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4793,15 +3071,15 @@
 	)
 	(symbol
 		(lib_id "AO_symbols:2N3904")
-		(at 87.63 90.17 90)
+		(at 163.83 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "2c9a4f74-487f-4a2d-9ff0-908691f55df5")
-		(property "Reference" "T100"
-			(at 91.44 82.5501 90)
+		(uuid "259fb991-7b22-4963-ad18-85d9b8cdd08e")
+		(property "Reference" "T3"
+			(at 167.64 81.2801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4810,7 +3088,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 91.44 80.0101 90)
+			(at 167.64 78.7401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4819,7 +3097,7 @@
 			)
 		)
 		(property "Footprint" "AO_tht:TO-92_Inline_Wide"
-			(at 89.535 85.09 0)
+			(at 165.735 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4830,7 +3108,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 90.17 0)
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4840,7 +3118,7 @@
 			)
 		)
 		(property "Description" "Small Signal NPN Transistor, TO-92"
-			(at 87.63 90.17 0)
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4849,7 +3127,7 @@
 			)
 		)
 		(property "Vendor" "Tayda"
-			(at 87.63 90.17 0)
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4858,7 +3136,7 @@
 			)
 		)
 		(property "SKU" "A-111"
-			(at 87.63 90.17 0)
+			(at 163.83 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4867,150 +3145,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "bd20bce3-89c0-4eec-8185-3a87908ad390")
+			(uuid "97ced7cb-1e06-4cf6-8908-d87840cd2964")
 		)
 		(pin "3"
-			(uuid "054f6551-012f-4489-b6f4-b5c813e57f48")
+			(uuid "b6fa8ca9-2d6d-4dc9-882d-b8d88e2af260")
 		)
 		(pin "2"
-			(uuid "958c82fb-8302-494b-a728-f390b44f6138")
-		)
-		(instances
-			(project ""
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "T100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:GND_1")
-		(at 138.43 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33d398ed-de34-4a39-95d4-21169bc27259")
-		(property "Reference" "#PWR018"
-			(at 138.43 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_1"
-			(at 138.43 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND_1\" , ground"
-			(at 138.43 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3dd5b0e4-647e-4ccb-add7-791a71b94b36")
+			(uuid "653a6a51-61c9-4b04-b8e7-70fd03e670ce")
 		)
 		(instances
 			(project "Silencer_TOP"
 				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:GND_1")
-		(at 248.92 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4044b379-8ab9-4fa8-9b90-7d49c61e22c8")
-		(property "Reference" "#PWR08"
-			(at 248.92 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_1"
-			(at 248.92 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 248.92 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND_1\" , ground"
-			(at 248.92 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af455982-a89f-4ccd-b7c9-86905f9e2e22")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "#PWR08")
+					(reference "T3")
 					(unit 1)
 				)
 			)
@@ -5018,15 +3164,15 @@
 	)
 	(symbol
 		(lib_id "AO_symbols:2N3904")
-		(at 166.37 132.08 90)
+		(at 92.71 88.9 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "40affb94-26df-4af2-a98a-10bb86d9dd64")
-		(property "Reference" "T103"
-			(at 170.18 124.4601 90)
+		(uuid "32b785d8-0266-43a4-ad95-efe8f7a3f088")
+		(property "Reference" "T1"
+			(at 96.52 81.2801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5035,7 +3181,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 170.18 121.9201 90)
+			(at 96.52 78.7401 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5044,7 +3190,7 @@
 			)
 		)
 		(property "Footprint" "AO_tht:TO-92_Inline_Wide"
-			(at 168.275 127 0)
+			(at 94.615 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5055,7 +3201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 166.37 132.08 0)
+			(at 92.71 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5065,7 +3211,7 @@
 			)
 		)
 		(property "Description" "Small Signal NPN Transistor, TO-92"
-			(at 166.37 132.08 0)
+			(at 92.71 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5074,7 +3220,7 @@
 			)
 		)
 		(property "Vendor" "Tayda"
-			(at 166.37 132.08 0)
+			(at 92.71 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5083,7 +3229,7 @@
 			)
 		)
 		(property "SKU" "A-111"
-			(at 166.37 132.08 0)
+			(at 92.71 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5092,18 +3238,111 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea772739-c4b6-4a2a-86f2-260c96f831e0")
+			(uuid "7547ff19-33c1-4573-ac7f-b30bb42c84ff")
 		)
 		(pin "3"
-			(uuid "f1ccb87d-a70f-4127-957c-f63e06f4a632")
+			(uuid "9bf747d4-9b17-4805-9274-b7d841a8bad7")
 		)
 		(pin "2"
-			(uuid "1996243c-caf7-4bc3-99b2-eafbf02e249b")
+			(uuid "260999ea-0009-49a5-ab9f-b048504ad4d4")
 		)
 		(instances
 			(project "Silencer_TOP"
 				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "T103")
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AO_symbols:2N3904")
+		(at 165.1 115.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4398f309-e819-45c4-b394-da05d3150074")
+		(property "Reference" "T4"
+			(at 168.91 107.9501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N3904"
+			(at 168.91 105.4101 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AO_tht:TO-92_Inline_Wide"
+			(at 167.005 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Small Signal NPN Transistor, TO-92"
+			(at 165.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Tayda"
+			(at 165.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "A-111"
+			(at 165.1 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9edde520-dfe9-48dc-bc50-bf06bbb4c7b5")
+		)
+		(pin "3"
+			(uuid "66d48854-a8fe-496a-b201-3aa90b06df0d")
+		)
+		(pin "2"
+			(uuid "bbf8dcbb-147a-4761-9d2a-013c75cb6333")
+		)
+		(instances
+			(project "Silencer_TOP"
+				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
+					(reference "T4")
 					(unit 1)
 				)
 			)
@@ -5268,229 +3507,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 179.07 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a743e82-c9d6-4521-b05b-f81487ef4ebd")
-		(property "Reference" "R108"
-			(at 181.61 83.8201 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 181.61 81.2801 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AO_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 179.07 89.408 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 179.07 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "72de4fa0-d3ca-4e9c-9c42-a2016e216b95")
-		)
-		(pin "1"
-			(uuid "36d870a9-e0d1-41a8-aa1f-afc67a6e5744")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "R108")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:GND_1")
-		(at 106.68 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4cb3b722-4d30-4916-bc56-2b8cd752d1f7")
-		(property "Reference" "#PWR013"
-			(at 106.68 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_1"
-			(at 106.68 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND_1\" , ground"
-			(at 106.68 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "58777d86-49fe-4979-af46-b8885eb9e6d0")
-		)
-		(instances
-			(project ""
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:LED_red")
-		(at 152.4 87.63 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d850ef2-a2f0-474d-8908-3b56224b6740")
-		(property "Reference" "LED3"
-			(at 152.7174 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_red"
-			(at 155.2574 83.82 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AO_tht:LED_D5.0mm"
-			(at 152.4 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 152.4 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 152.4 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Tayda"
-			(at 152.4 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "A-1554"
-			(at 152.4 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "90a8254a-9797-442f-b605-9a2cd3123753")
-		)
-		(pin "1"
-			(uuid "ea636c25-c5e4-4f8c-a586-1c7e79379d6a")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "LED3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AO_symbols:SW_SPDT_MSM")
 		(at 57.15 44.45 270)
 		(mirror x)
@@ -5649,6 +3665,160 @@
 		)
 	)
 	(symbol
+		(lib_id "AO_symbols:LED_red")
+		(at 81.28 114.3 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d9d47e0-121f-4f5e-84ea-be66419901b6")
+		(property "Reference" "LED1"
+			(at 81.5974 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_red"
+			(at 84.1374 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AO_tht:LED_D5.0mm"
+			(at 81.28 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 81.28 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 81.28 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Tayda"
+			(at 81.28 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "A-1554"
+			(at 81.28 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83f40352-b85a-4c88-b462-59947bbe7c46")
+		)
+		(pin "1"
+			(uuid "93114faa-6d29-4ac5-b55f-2dd003f24097")
+		)
+		(instances
+			(project "Silencer_TOP"
+				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
+					(reference "LED1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AO_symbols:+12V_1")
+		(at 76.2 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62688f9c-e5ce-4844-8d48-ea470781860f")
+		(property "Reference" "#PWR010"
+			(at 76.2 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V_1"
+			(at 76.2 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V_1\""
+			(at 76.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7e5e41b-d61d-4c61-b800-1234999de82e")
+		)
+		(instances
+			(project "Silencer_TOP"
+				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AO_symbols:GND_1")
 		(at 121.92 54.61 0)
 		(unit 1)
@@ -5716,263 +3886,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 71.12 97.79 90)
+		(at 176.53 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d12ac11-c870-4789-96b9-96b94521c9db")
-		(property "Reference" "R100"
-			(at 71.12 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100K"
-			(at 71.12 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AO_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 71.12 99.568 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 71.12 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "12758ae5-3262-4f28-a548-6282782010fc")
-		)
-		(pin "1"
-			(uuid "92a716bd-824b-4e00-b1b6-1c24a256fab0")
-		)
-		(instances
-			(project ""
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "R100")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:AudioJack2_SwitchT")
-		(at 149.86 149.86 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "76c0406b-e122-4d88-a32f-124fcfa14ae8")
-		(property "Reference" "OUT_4"
-			(at 154.94 151.7651 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AudioJack2_SwitchT"
-			(at 154.94 149.2251 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AO_tht:Jack_6.35mm_PJ_629HAN_slots"
-			(at 149.86 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 149.86 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Tayda"
-			(at 149.86 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "A-1121"
-			(at 149.86 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TN"
-			(uuid "81775f9a-8110-4e41-b171-461242011ca7")
-		)
-		(pin "S"
-			(uuid "8fe5d3c5-1e85-4e6a-9c19-625d46fa5e7d")
-		)
-		(pin "T"
-			(uuid "d7c9a498-7b09-48da-80c1-ceafa9786cce")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "OUT_4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:LED_red")
-		(at 73.66 129.54 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7795ec35-3592-4cc2-9a7f-ea251bdf1c22")
-		(property "Reference" "LED2"
-			(at 73.9774 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED_red"
-			(at 76.5174 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AO_tht:LED_D5.0mm"
-			(at 73.66 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 73.66 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Tayda"
-			(at 73.66 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "A-1554"
-			(at 73.66 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "36249b3a-d428-4e15-b35f-73cd7b93bacb")
-		)
-		(pin "1"
-			(uuid "a21a1c94-382a-4f83-bee9-b73b691f6e46")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 100.33 129.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7867f1d9-e1b9-4732-95d7-f2709386bf7b")
-		(property "Reference" "R105"
-			(at 102.87 125.7301 90)
+		(uuid "7493ad2b-b14f-4da9-94dc-f178e0b7cb49")
+		(property "Reference" "R6"
+			(at 179.07 82.5501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5981,7 +3903,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 102.87 123.1901 90)
+			(at 179.07 80.0101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5990,7 +3912,7 @@
 			)
 		)
 		(property "Footprint" "AO_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 100.33 131.318 90)
+			(at 176.53 88.138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5999,7 +3921,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 100.33 129.54 0)
+			(at 176.53 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6008,7 +3930,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 100.33 129.54 0)
+			(at 176.53 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6017,105 +3939,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "e7e79aea-980e-4b8b-bccc-6b44e591a2b6")
+			(uuid "37bdaec3-df39-45a2-be7f-39d43a4268b6")
 		)
 		(pin "1"
-			(uuid "dc5c0484-ee08-466f-8271-1afbe496fe0c")
+			(uuid "3993bf3e-e8e6-4073-90b6-e34f25f4e081")
 		)
 		(instances
 			(project "Silencer_TOP"
 				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "R105")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:AudioJack2_SwitchT")
-		(at 240.03 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "79324490-77ce-4b4f-9416-b6f4d3217c31")
-		(property "Reference" "IN_3"
-			(at 239.395 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AudioJack2_SwitchT"
-			(at 239.395 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AO_tht:Jack_6.35mm_PJ_629HAN_slots"
-			(at 240.03 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 240.03 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Tayda"
-			(at 240.03 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "A-1121"
-			(at 240.03 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "550984ff-4c6f-4401-8638-4df325b526b1")
-		)
-		(pin "T"
-			(uuid "9d425c40-2425-451d-a7eb-88a608d9aac1")
-		)
-		(pin "TN"
-			(uuid "66613ad1-c6ee-484d-b437-ba129a6a23a1")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "IN_3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6123,32 +3955,33 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 128.27 107.95 90)
+		(at 105.41 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a62d34a-478d-4a33-96d8-55dee892d363")
-		(property "Reference" "R106"
-			(at 128.27 101.6 90)
+		(uuid "79cf0a9b-0ef5-4e52-bb81-6f25a435c8f3")
+		(property "Reference" "R2"
+			(at 107.95 82.5501 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "1K"
-			(at 128.27 104.14 90)
+			(at 107.95 80.0101 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "AO_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 128.27 109.728 90)
+			(at 105.41 88.138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6157,7 +3990,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 107.95 0)
+			(at 105.41 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6166,7 +3999,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.27 107.95 0)
+			(at 105.41 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6174,16 +4007,16 @@
 				(hide yes)
 			)
 		)
-		(pin "1"
-			(uuid "8634f925-5bf9-4beb-82ee-ae3cbe250e31")
-		)
 		(pin "2"
-			(uuid "a547d754-f53a-49be-b7cb-082bae26db28")
+			(uuid "d440cbb2-09ba-4647-a3b5-5b7b30545dda")
+		)
+		(pin "1"
+			(uuid "26d5b067-36ef-4e45-9c1c-c39a364402df")
 		)
 		(instances
 			(project "Silencer_TOP"
 				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "R106")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -6191,15 +4024,15 @@
 	)
 	(symbol
 		(lib_id "AO_symbols:2N3904")
-		(at 87.63 132.08 90)
+		(at 95.25 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "81cfd53b-d03b-4ab9-be85-9e4b38e68125")
-		(property "Reference" "T101"
-			(at 91.44 124.4601 90)
+		(uuid "7eda737f-b075-4a48-8deb-9b1b693555ae")
+		(property "Reference" "T2"
+			(at 99.06 109.2201 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6208,7 +4041,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 91.44 121.9201 90)
+			(at 99.06 106.6801 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6217,7 +4050,7 @@
 			)
 		)
 		(property "Footprint" "AO_tht:TO-92_Inline_Wide"
-			(at 89.535 127 0)
+			(at 97.155 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6228,7 +4061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 132.08 0)
+			(at 95.25 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6238,7 +4071,7 @@
 			)
 		)
 		(property "Description" "Small Signal NPN Transistor, TO-92"
-			(at 87.63 132.08 0)
+			(at 95.25 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6247,7 +4080,7 @@
 			)
 		)
 		(property "Vendor" "Tayda"
-			(at 87.63 132.08 0)
+			(at 95.25 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6256,7 +4089,7 @@
 			)
 		)
 		(property "SKU" "A-111"
-			(at 87.63 132.08 0)
+			(at 95.25 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6265,18 +4098,152 @@
 			)
 		)
 		(pin "1"
-			(uuid "4eedc078-6ad3-47c5-aeb8-e9a777fd7e7e")
+			(uuid "6c6c9a81-f983-427b-8671-6be79a638be2")
 		)
 		(pin "3"
-			(uuid "05d84972-5454-4d2d-b397-1415ba278184")
+			(uuid "c7a3e6d8-ea2f-4cea-b75f-054e291fdde8")
 		)
 		(pin "2"
-			(uuid "ce142d07-a10b-441b-a7a6-fd941511502a")
+			(uuid "5895606a-1ad3-46de-a85b-56fdd54062b1")
 		)
 		(instances
 			(project "Silencer_TOP"
 				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "T101")
+					(reference "T2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AO_symbols:+12V_1")
+		(at 146.05 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "824b5a8e-d0a3-41b3-8fd8-0282f83f9eae")
+		(property "Reference" "#PWR014"
+			(at 146.05 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V_1"
+			(at 146.05 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V_1\""
+			(at 146.05 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fb6cb8ee-e24a-47fd-8bdf-1bbd883a2e31")
+		)
+		(instances
+			(project "Silencer_TOP"
+				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 76.2 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86ec9029-e1bb-4f91-8ae2-21245c336b3a")
+		(property "Reference" "R1"
+			(at 76.2 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 76.2 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AO_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 76.2 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "30a8b81e-dfdd-41a7-af3d-3817f7f9f543")
+		)
+		(pin "1"
+			(uuid "81e67d47-2328-4610-b5d1-868f6f8e1bfa")
+		)
+		(instances
+			(project "Silencer_TOP"
+				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6415,33 +4382,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 149.86 97.79 90)
+		(lib_id "AO_symbols:LED_red")
+		(at 149.86 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "986de85d-4529-44c8-9d54-7ec9790d69b6")
-		(property "Reference" "R107"
-			(at 149.86 91.44 90)
+		(uuid "9c79fb02-4aff-477c-b57f-30d7d35c834e")
+		(property "Reference" "LED6"
+			(at 150.1774 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" "100K"
-			(at 149.86 93.98 90)
+		(property "Value" "LED_red"
+			(at 152.7174 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "AO_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 149.86 99.568 90)
+		(property "Footprint" "AO_tht:LED_D5.0mm"
+			(at 149.86 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6450,7 +4419,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 97.79 0)
+			(at 149.86 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,145 +4427,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 149.86 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cead3ed3-aa42-4ceb-b618-5eba306ac466")
-		)
-		(pin "1"
-			(uuid "939309ee-c949-498a-9058-3afd2d1251df")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "R107")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 71.12 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a41e1bde-dc1c-48cb-908f-d0b64b5d3de6")
-		(property "Reference" "R103"
-			(at 71.12 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100K"
-			(at 71.12 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AO_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 71.12 141.478 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 71.12 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5c726a0a-ba66-4c01-8b91-5c5ca7e12e17")
-		)
-		(pin "1"
-			(uuid "ae67a48a-d61e-4b6f-a24a-03c825910d58")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "R103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:AudioJack2_SwitchT")
-		(at 240.03 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2e9000a-c6ce-4229-97bf-9f17f692fa15")
-		(property "Reference" "IN_2"
-			(at 239.395 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AudioJack2_SwitchT"
-			(at 239.395 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AO_tht:Jack_6.35mm_PJ_629HAN_slots"
-			(at 240.03 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 240.03 54.61 0)
+		(property "Description" "Light emitting diode"
+			(at 149.86 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6605,7 +4437,7 @@
 			)
 		)
 		(property "Vendor" "Tayda"
-			(at 240.03 54.61 0)
+			(at 149.86 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6613,96 +4445,25 @@
 				(hide yes)
 			)
 		)
-		(property "SKU" "A-1121"
-			(at 240.03 54.61 0)
+		(property "SKU" "A-1554"
+			(at 149.86 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "S"
-			(uuid "dfc0ea7a-cae8-4d1f-a188-8438d78834e8")
-		)
-		(pin "T"
-			(uuid "b91bb96e-c92f-4389-b85e-a4256d16c1fe")
-		)
-		(pin "TN"
-			(uuid "d23b6fa0-2139-4e89-96d9-76c727cff083")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "IN_2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 128.27 149.86 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b423d8b9-f58e-4c4a-a05f-9e467d88f995")
-		(property "Reference" "R112"
-			(at 128.27 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 128.27 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AO_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 128.27 151.638 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 128.27 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bf0ffd9c-b775-4f13-b93b-bc25ad616194")
 		)
 		(pin "2"
-			(uuid "b5de0d9d-1d5a-47d7-a370-5c63f3d510f1")
+			(uuid "4785c2a8-f3f8-41cb-86e8-03cbc7c49569")
+		)
+		(pin "1"
+			(uuid "e48b17fc-7007-414a-bcc7-674a430960d4")
 		)
 		(instances
 			(project "Silencer_TOP"
 				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "R112")
+					(reference "LED6")
 					(unit 1)
 				)
 			)
@@ -6710,16 +4471,16 @@
 	)
 	(symbol
 		(lib_id "AO_symbols:GND_1")
-		(at 59.69 111.76 0)
+		(at 114.3 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b460d10e-d634-467d-9eae-45acc9acd41b")
-		(property "Reference" "#PWR012"
-			(at 59.69 118.11 0)
+		(uuid "a285901f-30a5-417b-ab2c-e2eb51d877de")
+		(property "Reference" "#PWR011"
+			(at 114.3 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6728,7 +4489,7 @@
 			)
 		)
 		(property "Value" "GND_1"
-			(at 59.69 116.84 0)
+			(at 114.3 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6736,7 +4497,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 111.76 0)
+			(at 114.3 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6745,7 +4506,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 111.76 0)
+			(at 114.3 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6754,7 +4515,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND_1\" , ground"
-			(at 59.69 111.76 0)
+			(at 114.3 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6763,12 +4524,235 @@
 			)
 		)
 		(pin "1"
-			(uuid "dd25dd35-0a96-40d2-b636-1e3c27229b78")
+			(uuid "cc17bc7f-d207-4ac3-8f43-4a401b5701d4")
 		)
 		(instances
-			(project ""
+			(project "Silencer_TOP"
 				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "#PWR012")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AO_symbols:LED_red")
+		(at 78.74 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac2192f7-cb76-4ffc-80a2-2178d83e1867")
+		(property "Reference" "LED5"
+			(at 79.0574 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LED_red"
+			(at 81.5974 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "AO_tht:LED_D5.0mm"
+			(at 78.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 78.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 78.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor" "Tayda"
+			(at 78.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "SKU" "A-1554"
+			(at 78.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "410970fb-7111-4e98-ba4a-f0ae03ed2695")
+		)
+		(pin "1"
+			(uuid "0ce99dfb-70c4-4364-a3dc-fd61b18f9050")
+		)
+		(instances
+			(project "Silencer_TOP"
+				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
+					(reference "LED5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AO_symbols:GND_1")
+		(at 182.88 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b2b942dd-4579-4f62-88ae-f3a7f31d1b03")
+		(property "Reference" "#PWR013"
+			(at 182.88 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND_1"
+			(at 182.88 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND_1\" , ground"
+			(at 182.88 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3059cae4-e9f2-4131-9685-21f14d14eca0")
+		)
+		(instances
+			(project "Silencer_TOP"
+				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 107.95 114.3 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b65ff909-1a9f-45b3-9e30-be22f9cc4b13")
+		(property "Reference" "R4"
+			(at 110.49 110.4901 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 110.49 107.9501 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AO_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 107.95 116.078 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 107.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e754fd8e-1643-4075-ab70-0504f0bd6db1")
+		)
+		(pin "1"
+			(uuid "edf7b68d-c5ec-4791-a9a5-9c8e93e9b823")
+		)
+		(instances
+			(project "Silencer_TOP"
+				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -6959,493 +4943,17 @@
 		)
 	)
 	(symbol
-		(lib_id "AO_symbols:2N3904")
-		(at 166.37 90.17 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c27ceed3-5d0c-47b2-9b63-d676c555ad92")
-		(property "Reference" "T102"
-			(at 170.18 82.5501 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N3904"
-			(at 170.18 80.0101 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "AO_tht:TO-92_Inline_Wide"
-			(at 168.275 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Small Signal NPN Transistor, TO-92"
-			(at 166.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Tayda"
-			(at 166.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "A-111"
-			(at 166.37 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2796207-10bc-47e4-953a-8a895437b3f8")
-		)
-		(pin "3"
-			(uuid "0d04b86b-339f-4f0d-97e8-9ab31adceb37")
-		)
-		(pin "2"
-			(uuid "832ec68f-5f19-47e1-a8a5-f446bf42e319")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "T102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 149.86 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cef9109d-02d1-4155-a89d-6fad75277240")
-		(property "Reference" "R109"
-			(at 149.86 133.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100K"
-			(at 149.86 135.89 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AO_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 149.86 141.478 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 149.86 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d3961ed3-a5dc-45b1-baa8-f95c0b4df26b")
-		)
-		(pin "1"
-			(uuid "0145a752-be11-4252-aac7-b45b0f341d22")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "R109")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:AudioJack2_SwitchT")
-		(at 71.12 149.86 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d1e77414-e398-4f99-8a64-9251e4950777")
-		(property "Reference" "OUT_2"
-			(at 76.2 151.7651 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AudioJack2_SwitchT"
-			(at 76.2 149.2251 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AO_tht:Jack_6.35mm_PJ_629HAN_slots"
-			(at 71.12 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 71.12 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Tayda"
-			(at 71.12 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "A-1121"
-			(at 71.12 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TN"
-			(uuid "4793fbf1-4657-4d6e-ae86-7934de8b2d33")
-		)
-		(pin "S"
-			(uuid "d3031235-8b54-47eb-8c81-e85e783d5a62")
-		)
-		(pin "T"
-			(uuid "d718f77f-c974-4870-ad3e-4ce8ba371bbe")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "OUT_2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:+12V_1")
-		(at 68.58 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d79995ec-800b-47b3-ad3c-456dc61b37bd")
-		(property "Reference" "#PWR014"
-			(at 68.58 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V_1"
-			(at 68.58 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V_1\""
-			(at 68.58 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af4be259-8682-4140-93a7-20ed389cd793")
-		)
-		(instances
-			(project ""
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:AudioJack2_SwitchT")
-		(at 71.12 107.95 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "da3ded5f-4dbd-4119-a6c2-7deb3547a4f1")
-		(property "Reference" "OUT_1"
-			(at 76.2 109.8551 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AudioJack2_SwitchT"
-			(at 76.2 107.3151 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AO_tht:Jack_6.35mm_PJ_629HAN_slots"
-			(at 71.12 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 71.12 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Tayda"
-			(at 71.12 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "A-1121"
-			(at 71.12 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TN"
-			(uuid "d4e60339-a194-4023-a819-dbd883b40a88")
-		)
-		(pin "S"
-			(uuid "5a14b59d-5f83-427c-af66-2f659d0e1fbe")
-		)
-		(pin "T"
-			(uuid "adfea4dc-ad39-4e0a-9414-2ddc945c220c")
-		)
-		(instances
-			(project ""
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "OUT_1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:+12V_1")
-		(at 224.79 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "de32d92e-dba4-41ba-87ca-fdee4ddd4b25")
-		(property "Reference" "#PWR011"
-			(at 224.79 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V_1"
-			(at 224.79 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 224.79 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 224.79 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V_1\""
-			(at 224.79 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8016bc79-0407-4264-b3b8-f9de56a80826")
-		)
-		(instances
-			(project ""
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AO_symbols:GND_1")
-		(at 248.92 110.49 0)
+		(at 151.13 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e21697c3-3c1d-4db8-8f8e-ae3a192d2c3a")
-		(property "Reference" "#PWR010"
-			(at 248.92 116.84 0)
+		(uuid "c5cb02f3-18fb-44af-9128-1d2720b3dcb6")
+		(property "Reference" "#PWR07"
+			(at 151.13 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7454,7 +4962,7 @@
 			)
 		)
 		(property "Value" "GND_1"
-			(at 248.92 115.57 0)
+			(at 151.13 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7462,7 +4970,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 248.92 110.49 0)
+			(at 151.13 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7471,7 +4979,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 110.49 0)
+			(at 151.13 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7480,7 +4988,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND_1\" , ground"
-			(at 248.92 110.49 0)
+			(at 151.13 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7489,104 +4997,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0cff0d8f-d981-4db9-87b3-3b8e4ee9150e")
+			(uuid "61bba98d-69b7-4577-a34a-a64710265cf9")
 		)
 		(instances
 			(project "Silencer_TOP"
 				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:AudioJack2_SwitchT")
-		(at 149.86 107.95 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "efb2927f-4e55-46bc-9d35-1d7f27680823")
-		(property "Reference" "OUT_3"
-			(at 154.94 109.8551 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "AudioJack2_SwitchT"
-			(at 154.94 107.3151 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "AO_tht:Jack_6.35mm_PJ_629HAN_slots"
-			(at 149.86 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Audio Jack, 2 Poles (Mono / TS), Switched T Pole (Normalling)"
-			(at 149.86 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Vendor" "Tayda"
-			(at 149.86 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "SKU" "A-1121"
-			(at 149.86 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "TN"
-			(uuid "3c253b6f-3255-4705-a01d-463a09511486")
-		)
-		(pin "S"
-			(uuid "9ce1ad63-8e6e-42b2-a8b9-6085856fdb0e")
-		)
-		(pin "T"
-			(uuid "4aef041b-7d34-45d0-b6e6-9bdc76d3eaa0")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "OUT_3")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7594,33 +5010,32 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 179.07 129.54 90)
+		(at 78.74 124.46 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f0abcb6e-c19c-4831-8bdb-526de7a9a4d2")
-		(property "Reference" "R110"
-			(at 181.61 125.7301 90)
+		(fields_autoplaced yes)
+		(uuid "d4bc60a5-3cfe-4e29-a209-7495949120eb")
+		(property "Reference" "R3"
+			(at 78.74 118.11 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "1K"
-			(at 181.61 123.1901 90)
+		(property "Value" "100K"
+			(at 78.74 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "AO_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 179.07 131.318 90)
+			(at 78.74 126.238 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7629,7 +5044,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 129.54 0)
+			(at 78.74 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7638,7 +5053,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 179.07 129.54 0)
+			(at 78.74 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7647,15 +5062,286 @@
 			)
 		)
 		(pin "2"
-			(uuid "1159fca2-719c-4008-9fbd-11f4050025ac")
+			(uuid "4a8e5b7d-4c75-4844-ba6f-5a980e68ab4f")
 		)
 		(pin "1"
-			(uuid "218e3885-0f42-4f07-9e34-2b87d590d0c1")
+			(uuid "58b32bb3-4434-4458-8cf7-79cbdf185863")
 		)
 		(instances
 			(project "Silencer_TOP"
 				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "R110")
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "AO_symbols:+12V_1")
+		(at 73.66 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e097e0c3-1510-4cbc-a44b-11cb055559cc")
+		(property "Reference" "#PWR08"
+			(at 73.66 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V_1"
+			(at 73.66 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V_1\""
+			(at 73.66 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "549b06a3-a098-48a9-bf12-3314e56128f4")
+		)
+		(instances
+			(project "Silencer_TOP"
+				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 148.59 123.19 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5bcfded-875c-43b9-89ed-9dd369415c53")
+		(property "Reference" "R7"
+			(at 148.59 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 148.59 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AO_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 148.59 124.968 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 148.59 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d8aff192-26ff-4e73-8a51-d29a621db689")
+		)
+		(pin "1"
+			(uuid "d42075aa-4c80-4d91-a224-f6096cfc36e5")
+		)
+		(instances
+			(project "Silencer_TOP"
+				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 177.8 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e7455d24-6341-4e91-b5ce-82cecc4e9883")
+		(property "Reference" "R8"
+			(at 180.34 109.2201 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 180.34 106.6801 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "AO_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 177.8 114.808 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 177.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 177.8 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7838c889-bcec-4c83-a983-10c1e9e35d53")
+		)
+		(pin "1"
+			(uuid "92103132-d6d1-46e2-8c47-dafcc3421a2f")
+		)
+		(instances
+			(project "Silencer_TOP"
+				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 147.32 96.52 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e8be5d16-a46e-47cd-b236-bbe1e7f89c56")
+		(property "Reference" "R5"
+			(at 147.32 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100K"
+			(at 147.32 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "AO_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 147.32 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 147.32 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1779c791-f739-42c3-9584-a69cbe6daf4f")
+		)
+		(pin "1"
+			(uuid "ba5d50d3-4a41-489d-b790-c9a1253e717a")
+		)
+		(instances
+			(project "Silencer_TOP"
+				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -7663,15 +5349,15 @@
 	)
 	(symbol
 		(lib_id "AO_symbols:LED_red")
-		(at 73.66 87.63 180)
+		(at 151.13 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f520b9c2-2a5a-424a-b08b-57ed527894b1")
-		(property "Reference" "LED1"
-			(at 73.9774 83.82 0)
+		(uuid "edc42e78-cee9-4b7d-8a17-27e16f4358c4")
+		(property "Reference" "LED7"
+			(at 151.4474 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7680,7 +5366,7 @@
 			)
 		)
 		(property "Value" "LED_red"
-			(at 76.5174 83.82 90)
+			(at 153.9874 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7690,7 +5376,7 @@
 			)
 		)
 		(property "Footprint" "AO_tht:LED_D5.0mm"
-			(at 73.66 87.63 0)
+			(at 151.13 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7699,7 +5385,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 73.66 87.63 0)
+			(at 151.13 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7708,7 +5394,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 73.66 87.63 0)
+			(at 151.13 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7717,7 +5403,7 @@
 			)
 		)
 		(property "Vendor" "Tayda"
-			(at 73.66 87.63 0)
+			(at 151.13 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7726,7 +5412,7 @@
 			)
 		)
 		(property "SKU" "A-1554"
-			(at 73.66 87.63 0)
+			(at 151.13 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7735,15 +5421,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "391dd7f8-3149-42ff-888a-0b086dddbb34")
+			(uuid "4c21d32a-174d-4122-b98d-f55d55cffe91")
 		)
 		(pin "1"
-			(uuid "ebadf93d-fddf-4480-bf58-763f1d1a7271")
+			(uuid "c1c3b210-2c5b-43ef-88e8-e3aa8c054afc")
 		)
 		(instances
-			(project ""
+			(project "Silencer_TOP"
 				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "LED1")
+					(reference "LED7")
 					(unit 1)
 				)
 			)
@@ -7839,85 +5525,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 49.53 107.95 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9d11940-b7c7-4752-ad8a-88df9250e0a8")
-		(property "Reference" "R101"
-			(at 49.53 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 49.53 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "AO_tht:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 49.53 109.728 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 49.53 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "667207bb-7e4f-4ebe-b358-062b1b5d6ac8")
-		)
-		(pin "2"
-			(uuid "bf536b10-e35c-49df-b99e-f16ec2e7e346")
-		)
-		(instances
-			(project ""
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "R101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "AO_symbols:GND_1")
-		(at 138.43 154.94 0)
+		(at 184.15 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fd977e04-ac1a-4e7a-9247-78ec8b50455d")
-		(property "Reference" "#PWR019"
-			(at 138.43 161.29 0)
+		(uuid "fc8156fd-3d17-4c55-914f-089f4da9fd44")
+		(property "Reference" "#PWR024"
+			(at 184.15 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7926,7 +5544,7 @@
 			)
 		)
 		(property "Value" "GND_1"
-			(at 138.43 160.02 0)
+			(at 184.15 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7934,7 +5552,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 154.94 0)
+			(at 184.15 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7943,7 +5561,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 154.94 0)
+			(at 184.15 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7952,7 +5570,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND_1\" , ground"
-			(at 138.43 154.94 0)
+			(at 184.15 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7961,78 +5579,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fa3c2e64-10d5-4593-ad4c-0cdba74e97f4")
+			(uuid "04b1bc23-70f8-4632-873b-3a5e2f380336")
 		)
 		(instances
 			(project "Silencer_TOP"
 				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "#PWR019")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "AO_symbols:GND_1")
-		(at 185.42 91.44 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fe468d4d-0ae6-4608-b711-2cac8f2dd4b1")
-		(property "Reference" "#PWR022"
-			(at 185.42 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND_1"
-			(at 185.42 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND_1\" , ground"
-			(at 185.42 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3345fe36-d58a-4386-aa0e-c2070b4275b3")
-		)
-		(instances
-			(project "Silencer_TOP"
-				(path "/451cde18-0dd5-48df-b1b1-576c1ce7d90e"
-					(reference "#PWR022")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
