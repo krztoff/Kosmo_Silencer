@@ -5336,7 +5336,7 @@
 		(at 44.373 27.61 -90)
 		(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x08 2.54mm single row")
-		(property "Reference" "JP100"
+		(property "Reference" "JP2"
 			(at 0 2.33 90)
 			(layer "B.SilkS")
 			(uuid "a3eccced-00b4-437e-8d72-977efb4a7178")
